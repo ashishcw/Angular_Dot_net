@@ -57,7 +57,7 @@ namespace DatingApp.API.Controllers
         }
 
 
-        [HttpPost("loging")]
+        [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDTO userForLoginDTO)
         {
             userForLoginDTO.Username = userForLoginDTO.Username.ToLower();
@@ -102,3 +102,7 @@ namespace DatingApp.API.Controllers
         }
     }
 }
+
+//Test users
+//John Test@123
+//James Hello@123
