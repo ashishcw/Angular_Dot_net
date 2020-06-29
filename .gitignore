@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 DatingApp-SPA/login_information.txt
+=======
+DatingApp.API/datingapp.db-shm
+DatingApp.API/datingapp.db-wal
+>>>>>>> 89f0ce9... appsettings added

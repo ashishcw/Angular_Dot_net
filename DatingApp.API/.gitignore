@@ -2,5 +2,3 @@
 bin
 obj
 *.db
-appsettings.json
-login_information.txt

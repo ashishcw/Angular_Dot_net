@@ -23,7 +23,7 @@ namespace DatingApp.API
         
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            this.Configuration = configuration;
         }
 
         
@@ -39,7 +39,7 @@ namespace DatingApp.API
             services.AddScoped<IAuthRepository, AuthRepository>();
 
 
-            //Middleware Token Authorization
+            //Middleware Token Authorization            
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options => {
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
