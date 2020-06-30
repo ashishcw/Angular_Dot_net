@@ -8,7 +8,7 @@ namespace DatingApp.API.DTOs
         public string Username { get; set; }
 
         [Required]
-        [StringLength(8, MinimumLength = 4, ErrorMessage="Password must be greater than 4 and lower than 8 characterts in length")]
+        [StringLength(12, MinimumLength = 4, ErrorMessage="Password must be greater than 4 and lower than 12 characterts in length")]
         public string Password { get; set; }
     }
 }
